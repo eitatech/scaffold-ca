@@ -1,0 +1,10 @@
+{
+  "folders": [],
+  "files": {
+    "pipeline/azure/azure.yaml.mustache": "deployment/{{projectNameLower}}_azure_build.yaml"
+  },
+  "java": {
+  },
+  "kotlin": {
+  }
+}

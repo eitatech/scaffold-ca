@@ -1,0 +1,22 @@
+package {{package}}.dynamodb.config
+
+import com.amazonaws.auth.profile.ProfileCredentialsProvider
+import com.amazonaws.client.builder.AwsClientBuilder.EndpointConfiguration
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDB
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder
+import org.springframework.beans.factory.annotation.Value
+import org.springframework.context.annotation.Bean
+import org.springframework.context.annotation.Configuration
+
+@Configuration
+open class DynamoDBConfig {
+    @Bean
+    open fun amazonDynamoDB( @Value("\${aws.dynamodb.endpoint}") endpoint: String?
+    ): AmazonDynamoDB {
+        return AmazonDynamoDBClientBuilder
+            .standard()
+            .withCredentials(ProfileCredentialsProvider("default"))
+            .withEndpointConfiguration(EndpointConfiguration(endpoint, null))
+            .build()
+    }
+}
