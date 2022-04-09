@@ -1,10 +1,9 @@
 package tech.eita.factory.pipelines;
 
+import java.io.IOException;
 import tech.eita.exceptions.CleanException;
 import tech.eita.factory.ModuleBuilder;
 import tech.eita.factory.ModuleFactory;
-
-import java.io.IOException;
 
 public class GitHubAction implements ModuleFactory {
 

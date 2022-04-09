@@ -2,14 +2,14 @@ package tech.eita.task;
 
 import static org.junit.Assert.assertTrue;
 
-import tech.eita.exceptions.CleanException;
-import tech.eita.exceptions.ParamNotFoundException;
 import java.io.File;
 import java.io.IOException;
 import org.gradle.api.Project;
 import org.gradle.testfixtures.ProjectBuilder;
 import org.junit.Before;
 import org.junit.Test;
+import tech.eita.exceptions.CleanException;
+import tech.eita.exceptions.ParamNotFoundException;
 
 public class GenerateModelTaskTest {
   private GenerateModelTask task;

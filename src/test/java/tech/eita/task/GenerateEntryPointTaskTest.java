@@ -1,12 +1,8 @@
 package tech.eita.task;
 
-import static tech.eita.Constants.APP_SERVICE;
 import static org.junit.Assert.*;
+import static tech.eita.Constants.APP_SERVICE;
 
-import tech.eita.Constants;
-import tech.eita.exceptions.CleanException;
-import tech.eita.factory.entrypoints.EntryPointRestMvcServer;
-import tech.eita.factory.entrypoints.ModuleFactoryEntryPoint;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -21,6 +17,10 @@ import org.gradle.api.Project;
 import org.gradle.testfixtures.ProjectBuilder;
 import org.junit.Before;
 import org.junit.Test;
+import tech.eita.Constants;
+import tech.eita.exceptions.CleanException;
+import tech.eita.factory.entrypoints.EntryPointRestMvcServer;
+import tech.eita.factory.entrypoints.ModuleFactoryEntryPoint;
 
 public class GenerateEntryPointTaskTest {
   private GenerateEntryPointTask task;
@@ -175,8 +175,7 @@ public class GenerateEntryPointTaskTest {
                 "build/unitTest/infrastructure/entry-points/api-rest/src/main/java/tech/eita/api/ApiRest.java")
             .exists());
     assertTrue(
-        new File(
-                "build/unitTest/infrastructure/entry-points/api-rest/src/test/java/tech/eita/api")
+        new File("build/unitTest/infrastructure/entry-points/api-rest/src/test/java/tech/eita/api")
             .exists());
   }
 
@@ -196,8 +195,7 @@ public class GenerateEntryPointTaskTest {
                 "build/unitTest/infrastructure/entry-points/api-rest/src/main/java/tech/eita/api/ApiRest.java")
             .exists());
     assertTrue(
-        new File(
-                "build/unitTest/infrastructure/entry-points/api-rest/src/test/java/tech/eita/api")
+        new File("build/unitTest/infrastructure/entry-points/api-rest/src/test/java/tech/eita/api")
             .exists());
     assertTrue(
         new File(
@@ -220,8 +218,7 @@ public class GenerateEntryPointTaskTest {
                 "build/unitTest/infrastructure/entry-points/api-rest/src/main/java/tech/eita/api/ApiRest.java")
             .exists());
     assertTrue(
-        new File(
-                "build/unitTest/infrastructure/entry-points/api-rest/src/test/java/tech/eita/api")
+        new File("build/unitTest/infrastructure/entry-points/api-rest/src/test/java/tech/eita/api")
             .exists());
 
     assertTrue(
@@ -252,8 +249,7 @@ public class GenerateEntryPointTaskTest {
                 "build/unitTest/infrastructure/entry-points/api-rest/src/main/java/tech/eita/api/ApiRest.java")
             .exists());
     assertTrue(
-        new File(
-                "build/unitTest/infrastructure/entry-points/api-rest/src/test/java/tech/eita/api")
+        new File("build/unitTest/infrastructure/entry-points/api-rest/src/test/java/tech/eita/api")
             .exists());
 
     assertTrue(
@@ -284,8 +280,7 @@ public class GenerateEntryPointTaskTest {
                 "build/unitTest/infrastructure/entry-points/api-rest/src/main/java/tech/eita/api/ApiRest.java")
             .exists());
     assertTrue(
-        new File(
-                "build/unitTest/infrastructure/entry-points/api-rest/src/test/java/tech/eita/api")
+        new File("build/unitTest/infrastructure/entry-points/api-rest/src/test/java/tech/eita/api")
             .exists());
 
     assertFalse(

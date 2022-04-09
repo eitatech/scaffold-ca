@@ -4,12 +4,11 @@ import static tech.eita.Constants.APP_SERVICE;
 import static tech.eita.utils.Utils.buildImplementation;
 import static tech.eita.utils.Utils.tomcatExclusion;
 
+import java.io.IOException;
 import tech.eita.Constants;
 import tech.eita.exceptions.InvalidTaskOptionException;
 import tech.eita.factory.ModuleBuilder;
 import tech.eita.factory.ModuleFactory;
-
-import java.io.IOException;
 
 public class EntryPointRestMvcServer implements ModuleFactory {
 

@@ -1,10 +1,10 @@
 package tech.eita.task;
 
+import java.io.IOException;
+import org.gradle.api.tasks.TaskAction;
 import tech.eita.exceptions.CleanException;
 import tech.eita.factory.tests.ModuleFactoryTests;
 import tech.eita.utils.Utils;
-import java.io.IOException;
-import org.gradle.api.tasks.TaskAction;
 
 public class GenerateAcceptanceTestTask extends CleanArchitectureDefaultTask {
 

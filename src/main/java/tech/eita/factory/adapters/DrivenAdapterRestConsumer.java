@@ -4,11 +4,11 @@ import static tech.eita.Constants.APP_SERVICE;
 import static tech.eita.utils.Utils.buildImplementation;
 import static tech.eita.utils.Utils.buildImplementationFromProject;
 
+import java.io.IOException;
+import org.gradle.api.logging.Logger;
 import tech.eita.exceptions.CleanException;
 import tech.eita.factory.ModuleBuilder;
 import tech.eita.factory.ModuleFactory;
-import java.io.IOException;
-import org.gradle.api.logging.Logger;
 
 public class DrivenAdapterRestConsumer implements ModuleFactory {
 

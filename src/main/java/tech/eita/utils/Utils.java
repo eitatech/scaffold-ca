@@ -1,7 +1,5 @@
 package tech.eita.utils;
 
-import tech.eita.Constants;
-import tech.eita.exceptions.ParamNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -16,6 +14,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
+import tech.eita.Constants;
+import tech.eita.exceptions.ParamNotFoundException;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Utils {

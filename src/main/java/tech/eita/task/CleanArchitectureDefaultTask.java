@@ -1,6 +1,5 @@
 package tech.eita.task;
 
-import tech.eita.factory.ModuleBuilder;
 import javax.inject.Inject;
 import org.gradle.api.DefaultTask;
 import org.gradle.api.Task;
@@ -10,6 +9,7 @@ import org.gradle.configuration.TaskDetailPrinter;
 import org.gradle.execution.TaskSelection;
 import org.gradle.internal.logging.text.StyledTextOutput;
 import org.gradle.internal.logging.text.StyledTextOutputFactory;
+import tech.eita.factory.ModuleBuilder;
 
 public class CleanArchitectureDefaultTask extends DefaultTask {
   protected final ModuleBuilder builder = new ModuleBuilder(getProject());

@@ -3,12 +3,11 @@ package tech.eita.factory.entrypoints;
 import static tech.eita.Constants.APP_SERVICE;
 import static tech.eita.utils.Utils.buildImplementationFromProject;
 
+import java.io.IOException;
 import tech.eita.exceptions.CleanException;
 import tech.eita.factory.ModuleBuilder;
 import tech.eita.factory.ModuleFactory;
 import tech.eita.factory.validations.ReactiveTypeValidation;
-
-import java.io.IOException;
 
 public class EntryPointAsyncEventHandler implements ModuleFactory {
   @Override

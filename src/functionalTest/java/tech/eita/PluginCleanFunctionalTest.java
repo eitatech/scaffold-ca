@@ -147,18 +147,14 @@ public class PluginCleanFunctionalTest {
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_INFRASTRUCTURE_HELPERS).exists());
 
     assertTrue(
-        new File("build/functionalTest/domain/model/src/main/java/tech/eita/model")
-            .exists());
+        new File("build/functionalTest/domain/model/src/main/java/tech/eita/model").exists());
     assertTrue(
-        new File("build/functionalTest/domain/model/src/test/java/tech/eita/model")
-            .exists());
+        new File("build/functionalTest/domain/model/src/test/java/tech/eita/model").exists());
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_DOMAIN_MODEL_BUILD_GRADLE).exists());
     assertTrue(
-        new File("build/functionalTest/domain/usecase/src/main/java/tech/eita/usecase")
-            .exists());
+        new File("build/functionalTest/domain/usecase/src/main/java/tech/eita/usecase").exists());
     assertTrue(
-        new File("build/functionalTest/domain/usecase/src/test/java/tech/eita/usecase")
-            .exists());
+        new File("build/functionalTest/domain/usecase/src/test/java/tech/eita/usecase").exists());
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_DOMAIN_USECASE_BUILD_GRADLE).exists());
 
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_APPLICATIONS_APP_SERVICE_BUILD_GRADLE).exists());
@@ -171,8 +167,7 @@ public class PluginCleanFunctionalTest {
                 "build/functionalTest/applications/app-service/src/main/java/tech/eita/config/UseCasesConfig.java")
             .exists());
     assertTrue(
-        new File(
-                "build/functionalTest/applications/app-service/src/main/java/tech/eita/config")
+        new File("build/functionalTest/applications/app-service/src/main/java/tech/eita/config")
             .exists());
     assertTrue(
         new File(BUILD_FUNCTIONAL_TEST_APPLICATIONS_APP_SERVICE_SRC_MAIN_RESOURCES_APPLICATION_YAML)
@@ -182,8 +177,7 @@ public class PluginCleanFunctionalTest {
                 BUILD_FUNCTIONAL_TEST_APPLICATIONS_APP_SERVICE_SRC_MAIN_RESOURCES_LOG_4_J_2_PROPERTIES)
             .exists());
     assertTrue(
-        new File("build/functionalTest/applications/app-service/src/test/java/tech/eita")
-            .exists());
+        new File("build/functionalTest/applications/app-service/src/test/java/tech/eita").exists());
 
     assertEquals(result.task(":" + task).getOutcome(), TaskOutcome.SUCCESS);
   }
@@ -209,18 +203,14 @@ public class PluginCleanFunctionalTest {
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_INFRASTRUCTURE_HELPERS).exists());
 
     assertTrue(
-        new File("build/functionalTest/domain/model/src/main/java/tech/eita/model")
-            .exists());
+        new File("build/functionalTest/domain/model/src/main/java/tech/eita/model").exists());
     assertTrue(
-        new File("build/functionalTest/domain/model/src/test/java/tech/eita/model")
-            .exists());
+        new File("build/functionalTest/domain/model/src/test/java/tech/eita/model").exists());
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_DOMAIN_MODEL_BUILD_GRADLE).exists());
     assertTrue(
-        new File("build/functionalTest/domain/usecase/src/main/java/tech/eita/usecase")
-            .exists());
+        new File("build/functionalTest/domain/usecase/src/main/java/tech/eita/usecase").exists());
     assertTrue(
-        new File("build/functionalTest/domain/usecase/src/test/java/tech/eita/usecase")
-            .exists());
+        new File("build/functionalTest/domain/usecase/src/test/java/tech/eita/usecase").exists());
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_DOMAIN_USECASE_BUILD_GRADLE).exists());
 
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_APPLICATIONS_APP_SERVICE_BUILD_GRADLE).exists());
@@ -233,8 +223,7 @@ public class PluginCleanFunctionalTest {
                 "build/functionalTest/applications/app-service/src/main/java/tech/eita/config/UseCasesConfig.java")
             .exists());
     assertTrue(
-        new File(
-                "build/functionalTest/applications/app-service/src/main/java/tech/eita/config")
+        new File("build/functionalTest/applications/app-service/src/main/java/tech/eita/config")
             .exists());
     assertTrue(
         new File(BUILD_FUNCTIONAL_TEST_APPLICATIONS_APP_SERVICE_SRC_MAIN_RESOURCES_APPLICATION_YAML)
@@ -244,8 +233,7 @@ public class PluginCleanFunctionalTest {
                 BUILD_FUNCTIONAL_TEST_APPLICATIONS_APP_SERVICE_SRC_MAIN_RESOURCES_LOG_4_J_2_PROPERTIES)
             .exists());
     assertTrue(
-        new File("build/functionalTest/applications/app-service/src/test/java/tech/eita")
-            .exists());
+        new File("build/functionalTest/applications/app-service/src/test/java/tech/eita").exists());
 
     assertEquals(result.task(":" + task).getOutcome(), TaskOutcome.SUCCESS);
   }
@@ -301,24 +289,22 @@ public class PluginCleanFunctionalTest {
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_INFRASTRUCTURE_ENTRY_POINTS).exists());
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_INFRASTRUCTURE_HELPERS).exists());
 
-    assertTrue(
-        new File("build/functionalTest/domain/model/src/main/java/co/com/test/model").exists());
-    assertTrue(
-        new File("build/functionalTest/domain/model/src/test/java/co/com/test/model").exists());
+    assertTrue(new File("build/functionalTest/domain/model/src/main/java/com/test/model").exists());
+    assertTrue(new File("build/functionalTest/domain/model/src/test/java/com/test/model").exists());
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_DOMAIN_MODEL_BUILD_GRADLE).exists());
     assertTrue(
-        new File("build/functionalTest/domain/usecase/src/main/java/co/com/test/usecase").exists());
+        new File("build/functionalTest/domain/usecase/src/main/java/com/test/usecase").exists());
     assertTrue(
-        new File("build/functionalTest/domain/usecase/src/test/java/co/com/test/usecase").exists());
+        new File("build/functionalTest/domain/usecase/src/test/java/com/test/usecase").exists());
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_DOMAIN_USECASE_BUILD_GRADLE).exists());
 
     assertTrue(new File(BUILD_FUNCTIONAL_TEST_APPLICATIONS_APP_SERVICE_BUILD_GRADLE).exists());
     assertTrue(
         new File(
-                "build/functionalTest/applications/app-service/src/main/java/co/com/test/MainApplication.java")
+                "build/functionalTest/applications/app-service/src/main/java/com/test/MainApplication.java")
             .exists());
     assertTrue(
-        new File("build/functionalTest/applications/app-service/src/main/java/co/com/test/config")
+        new File("build/functionalTest/applications/app-service/src/main/java/com/test/config")
             .exists());
     assertTrue(
         new File(BUILD_FUNCTIONAL_TEST_APPLICATIONS_APP_SERVICE_SRC_MAIN_RESOURCES_APPLICATION_YAML)
@@ -328,8 +314,7 @@ public class PluginCleanFunctionalTest {
                 BUILD_FUNCTIONAL_TEST_APPLICATIONS_APP_SERVICE_SRC_MAIN_RESOURCES_LOG_4_J_2_PROPERTIES)
             .exists());
     assertTrue(
-        new File("build/functionalTest/applications/app-service/src/test/java/co/com/test")
-            .exists());
+        new File("build/functionalTest/applications/app-service/src/test/java/com/test").exists());
 
     assertEquals(result.task(":" + task).getOutcome(), TaskOutcome.SUCCESS);
   }
@@ -1061,18 +1046,14 @@ public class PluginCleanFunctionalTest {
     assertTrue(new File("build/functionalTest/infrastructure/helpers").exists());
 
     assertTrue(
-        new File("build/functionalTest/domain/model/src/main/kotlin/tech/eita/model")
-            .exists());
+        new File("build/functionalTest/domain/model/src/main/kotlin/tech/eita/model").exists());
     assertTrue(
-        new File("build/functionalTest/domain/model/src/test/kotlin/tech/eita/model")
-            .exists());
+        new File("build/functionalTest/domain/model/src/test/kotlin/tech/eita/model").exists());
     assertTrue(new File("build/functionalTest/domain/model/build.gradle.kts").exists());
     assertTrue(
-        new File("build/functionalTest/domain/usecase/src/main/kotlin/tech/eita/usecase")
-            .exists());
+        new File("build/functionalTest/domain/usecase/src/main/kotlin/tech/eita/usecase").exists());
     assertTrue(
-        new File("build/functionalTest/domain/usecase/src/test/kotlin/tech/eita/usecase")
-            .exists());
+        new File("build/functionalTest/domain/usecase/src/test/kotlin/tech/eita/usecase").exists());
     assertTrue(new File("build/functionalTest/domain/usecase/build.gradle.kts").exists());
 
     assertTrue(new File("build/functionalTest/applications/app-service/build.gradle.kts").exists());
@@ -1085,8 +1066,7 @@ public class PluginCleanFunctionalTest {
                 "build/functionalTest/applications/app-service/src/main/kotlin/tech/eita/config/UseCasesConfig.kt")
             .exists());
     assertTrue(
-        new File(
-                "build/functionalTest/applications/app-service/src/main/kotlin/tech/eita/config")
+        new File("build/functionalTest/applications/app-service/src/main/kotlin/tech/eita/config")
             .exists());
     assertTrue(
         new File(
@@ -1123,18 +1103,14 @@ public class PluginCleanFunctionalTest {
     assertTrue(new File("build/functionalTest/infrastructure/helpers").exists());
 
     assertTrue(
-        new File("build/functionalTest/domain/model/src/main/kotlin/tech/eita/model")
-            .exists());
+        new File("build/functionalTest/domain/model/src/main/kotlin/tech/eita/model").exists());
     assertTrue(
-        new File("build/functionalTest/domain/model/src/test/kotlin/tech/eita/model")
-            .exists());
+        new File("build/functionalTest/domain/model/src/test/kotlin/tech/eita/model").exists());
     assertTrue(new File("build/functionalTest/domain/model/build.gradle.kts").exists());
     assertTrue(
-        new File("build/functionalTest/domain/usecase/src/main/kotlin/tech/eita/usecase")
-            .exists());
+        new File("build/functionalTest/domain/usecase/src/main/kotlin/tech/eita/usecase").exists());
     assertTrue(
-        new File("build/functionalTest/domain/usecase/src/test/kotlin/tech/eita/usecase")
-            .exists());
+        new File("build/functionalTest/domain/usecase/src/test/kotlin/tech/eita/usecase").exists());
     assertTrue(new File("build/functionalTest/domain/usecase/build.gradle.kts").exists());
 
     assertTrue(new File("build/functionalTest/applications/app-service/build.gradle.kts").exists());
@@ -1147,8 +1123,7 @@ public class PluginCleanFunctionalTest {
                 "build/functionalTest/applications/app-service/src/main/kotlin/tech/eita/config/UseCasesConfig.kt")
             .exists());
     assertTrue(
-        new File(
-                "build/functionalTest/applications/app-service/src/main/kotlin/tech/eita/config")
+        new File("build/functionalTest/applications/app-service/src/main/kotlin/tech/eita/config")
             .exists());
     assertTrue(
         new File(

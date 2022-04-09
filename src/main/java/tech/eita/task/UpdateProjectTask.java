@@ -1,9 +1,5 @@
 package tech.eita.task;
 
-import tech.eita.adapters.RestService;
-import tech.eita.models.DependencyRelease;
-import tech.eita.models.Release;
-import tech.eita.utils.Utils;
 import java.io.IOException;
 import java.util.*;
 import java.util.function.Consumer;
@@ -11,6 +7,10 @@ import java.util.stream.Collectors;
 import org.gradle.api.tasks.TaskAction;
 import org.gradle.api.tasks.options.Option;
 import org.jetbrains.annotations.NotNull;
+import tech.eita.adapters.RestService;
+import tech.eita.models.DependencyRelease;
+import tech.eita.models.Release;
+import tech.eita.utils.Utils;
 
 public class UpdateProjectTask extends CleanArchitectureDefaultTask {
   private Set<String> dependencies = new HashSet<>();

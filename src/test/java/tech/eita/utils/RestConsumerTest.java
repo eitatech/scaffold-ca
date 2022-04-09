@@ -1,6 +1,5 @@
 package tech.eita.utils;
 
-import tech.eita.models.Release;
 import java.io.IOException;
 import okhttp3.HttpUrl;
 import okhttp3.mockwebserver.MockResponse;
@@ -8,6 +7,7 @@ import okhttp3.mockwebserver.MockWebServer;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import tech.eita.models.Release;
 
 public class RestConsumerTest {
 

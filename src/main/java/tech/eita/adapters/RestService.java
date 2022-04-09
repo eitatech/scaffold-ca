@@ -1,11 +1,11 @@
 package tech.eita.adapters;
 
-import tech.eita.models.DependencyRelease;
-import tech.eita.models.Release;
-import tech.eita.utils.RestConsumer;
 import java.util.Optional;
 import org.gradle.api.logging.Logger;
 import org.gradle.api.logging.Logging;
+import tech.eita.models.DependencyRelease;
+import tech.eita.models.Release;
+import tech.eita.utils.RestConsumer;
 
 public class RestService {
   public static final String PLUGIN_RELEASES =

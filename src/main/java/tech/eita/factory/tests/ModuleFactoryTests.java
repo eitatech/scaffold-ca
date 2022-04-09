@@ -1,8 +1,8 @@
 package tech.eita.factory.tests;
 
-import tech.eita.factory.ModuleFactory;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
+import tech.eita.factory.ModuleFactory;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ModuleFactoryTests {

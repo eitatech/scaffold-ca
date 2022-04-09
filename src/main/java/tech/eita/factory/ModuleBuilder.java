@@ -1,16 +1,5 @@
 package tech.eita.factory;
 
-import tech.eita.Constants;
-import tech.eita.adapters.RestService;
-import tech.eita.exceptions.ParamNotFoundException;
-import tech.eita.exceptions.ValidationException;
-import tech.eita.factory.validations.Validation;
-import tech.eita.models.FileModel;
-import tech.eita.models.Release;
-import tech.eita.models.TemplateDefinition;
-import tech.eita.utils.FileUpdater;
-import tech.eita.utils.FileUtils;
-import tech.eita.utils.Utils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.github.mustachejava.DefaultMustacheFactory;
@@ -30,6 +19,17 @@ import lombok.Getter;
 import lombok.SneakyThrows;
 import org.gradle.api.Project;
 import org.gradle.api.logging.Logger;
+import tech.eita.Constants;
+import tech.eita.adapters.RestService;
+import tech.eita.exceptions.ParamNotFoundException;
+import tech.eita.exceptions.ValidationException;
+import tech.eita.factory.validations.Validation;
+import tech.eita.models.FileModel;
+import tech.eita.models.Release;
+import tech.eita.models.TemplateDefinition;
+import tech.eita.utils.FileUpdater;
+import tech.eita.utils.FileUtils;
+import tech.eita.utils.Utils;
 
 public class ModuleBuilder {
 

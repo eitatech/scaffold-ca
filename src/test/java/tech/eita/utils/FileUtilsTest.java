@@ -3,8 +3,6 @@ package tech.eita.utils;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-import tech.eita.exceptions.CleanException;
-import tech.eita.exceptions.ParamNotFoundException;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.github.mustachejava.resolver.DefaultResolver;
 import java.io.File;
@@ -14,6 +12,8 @@ import java.util.stream.Collectors;
 import org.gradle.api.Project;
 import org.gradle.testfixtures.ProjectBuilder;
 import org.junit.Test;
+import tech.eita.exceptions.CleanException;
+import tech.eita.exceptions.ParamNotFoundException;
 
 public class FileUtilsTest {
 

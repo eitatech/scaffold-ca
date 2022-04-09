@@ -1,8 +1,5 @@
 package tech.eita.task;
 
-import tech.eita.exceptions.CleanException;
-import tech.eita.utils.FileUtils;
-import tech.eita.utils.Utils;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -16,6 +13,9 @@ import org.gradle.api.logging.Logger;
 import org.gradle.api.plugins.JavaPlugin;
 import org.gradle.api.tasks.TaskAction;
 import tech.eita.Constants;
+import tech.eita.exceptions.CleanException;
+import tech.eita.utils.FileUtils;
+import tech.eita.utils.Utils;
 
 public class ValidateStructureTask extends DefaultTask {
   private final Logger logger = getProject().getLogger();
@@ -81,7 +81,8 @@ public class ValidateStructureTask extends DefaultTask {
   }
 
   private boolean validateInfrastructureLayer() {
-    List<String> modulesExcludes = Arrays.asList(MODEL_MODULE, Constants.APP_SERVICE, USE_CASE_MODULE);
+    List<String> modulesExcludes =
+        Arrays.asList(MODEL_MODULE, Constants.APP_SERVICE, USE_CASE_MODULE);
     AtomicBoolean valid = new AtomicBoolean(true);
     Set<Map.Entry<String, Project>> modules = getModules();
 

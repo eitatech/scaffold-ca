@@ -1,7 +1,5 @@
 package tech.eita.factory;
 
-import tech.eita.exceptions.CleanException;
-import tech.eita.task.GenerateStructureTask;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -11,6 +9,8 @@ import org.gradle.api.Project;
 import org.gradle.testfixtures.ProjectBuilder;
 import org.junit.Before;
 import org.junit.Test;
+import tech.eita.exceptions.CleanException;
+import tech.eita.task.GenerateStructureTask;
 
 public class ModuleBuilderTest {
   private ModuleBuilder builder;

@@ -3,12 +3,12 @@ package tech.eita.factory.adapters;
 import static tech.eita.Constants.APP_SERVICE;
 import static tech.eita.utils.Utils.buildImplementationFromProject;
 
+import java.io.IOException;
+import org.gradle.api.logging.Logger;
 import tech.eita.exceptions.CleanException;
 import tech.eita.factory.ModuleBuilder;
 import tech.eita.factory.ModuleFactory;
 import tech.eita.factory.commons.ObjectMapperFactory;
-import java.io.IOException;
-import org.gradle.api.logging.Logger;
 
 public class DrivenAdapterMongoDB implements ModuleFactory {
   @Override

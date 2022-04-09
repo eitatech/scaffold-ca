@@ -2,9 +2,9 @@ package tech.eita.factory.tests;
 
 import static org.junit.Assert.assertNotNull;
 
+import org.junit.Test;
 import tech.eita.exceptions.InvalidTaskOptionException;
 import tech.eita.factory.ModuleFactory;
-import org.junit.Test;
 
 public class ModuleFactoryTestsTest {
 

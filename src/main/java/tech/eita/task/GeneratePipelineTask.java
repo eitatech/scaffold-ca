@@ -1,15 +1,15 @@
 package tech.eita.task;
 
-import tech.eita.exceptions.CleanException;
-import tech.eita.factory.ModuleFactory;
-import tech.eita.factory.pipelines.ModuleFactoryPipeline;
-import tech.eita.utils.Utils;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import org.gradle.api.tasks.TaskAction;
 import org.gradle.api.tasks.options.Option;
 import org.gradle.api.tasks.options.OptionValues;
+import tech.eita.exceptions.CleanException;
+import tech.eita.factory.ModuleFactory;
+import tech.eita.factory.pipelines.ModuleFactoryPipeline;
+import tech.eita.utils.Utils;
 
 public class GeneratePipelineTask extends CleanArchitectureDefaultTask {
   private ModuleFactoryPipeline.PipelineType type;

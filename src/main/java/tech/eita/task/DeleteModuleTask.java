@@ -2,7 +2,6 @@ package tech.eita.task;
 
 import static tech.eita.utils.Utils.buildImplementationFromProject;
 
-import tech.eita.utils.Utils;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +9,7 @@ import org.gradle.api.tasks.TaskAction;
 import org.gradle.api.tasks.options.Option;
 import org.gradle.api.tasks.options.OptionValues;
 import tech.eita.Constants;
+import tech.eita.utils.Utils;
 
 public class DeleteModuleTask extends CleanArchitectureDefaultTask {
   private String module;

@@ -2,15 +2,16 @@ package tech.eita.factory.adapters;
 
 import static org.junit.Assert.assertNotNull;
 
+import org.junit.Test;
 import tech.eita.exceptions.InvalidTaskOptionException;
 import tech.eita.factory.ModuleFactory;
-import org.junit.Test;
 
 public class ModuleFactoryDrivenAdapterTest {
 
   @Test
   public void shouldReturnModuleFactory() throws InvalidTaskOptionException {
-    for (ModuleFactoryDrivenAdapter.DrivenAdapterType type : ModuleFactoryDrivenAdapter.DrivenAdapterType.values()) {
+    for (ModuleFactoryDrivenAdapter.DrivenAdapterType type :
+        ModuleFactoryDrivenAdapter.DrivenAdapterType.values()) {
       ModuleFactory factory = ModuleFactoryDrivenAdapter.getDrivenAdapterFactory(type);
       assertNotNull(factory);
     }

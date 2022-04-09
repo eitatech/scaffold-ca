@@ -1,9 +1,8 @@
 package tech.eita.task;
 
-import static tech.eita.Constants.APP_SERVICE;
 import static org.junit.Assert.assertTrue;
+import static tech.eita.Constants.APP_SERVICE;
 
-import tech.eita.exceptions.CleanException;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -18,6 +17,7 @@ import org.gradle.testfixtures.ProjectBuilder;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
+import tech.eita.exceptions.CleanException;
 
 public class GenerateTestTaskTest {
 

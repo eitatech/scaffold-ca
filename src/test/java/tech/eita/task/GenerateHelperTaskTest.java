@@ -1,9 +1,8 @@
 package tech.eita.task;
 
-import static tech.eita.Constants.APP_SERVICE;
 import static org.junit.Assert.assertTrue;
+import static tech.eita.Constants.APP_SERVICE;
 
-import tech.eita.exceptions.CleanException;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -18,6 +17,7 @@ import org.gradle.testfixtures.ProjectBuilder;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
+import tech.eita.exceptions.CleanException;
 
 public class GenerateHelperTaskTest {
   private GenerateHelperTask task;
@@ -101,12 +101,10 @@ public class GenerateHelperTaskTest {
     // Assert
     assertTrue(new File("build/unitTest/infrastructure/helpers/my-helper/build.gradle").exists());
     assertTrue(
-        new File(
-                "build/unitTest/infrastructure/helpers/my-helper/src/main/java/tech/eita/myhelper")
+        new File("build/unitTest/infrastructure/helpers/my-helper/src/main/java/tech/eita/myhelper")
             .exists());
     assertTrue(
-        new File(
-                "build/unitTest/infrastructure/helpers/my-helper/src/test/java/tech/eita/myhelper")
+        new File("build/unitTest/infrastructure/helpers/my-helper/src/test/java/tech/eita/myhelper")
             .exists());
   }
 

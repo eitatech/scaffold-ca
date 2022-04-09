@@ -1,10 +1,10 @@
 package tech.eita.task;
 
-import tech.eita.exceptions.ParamNotFoundException;
-import tech.eita.utils.Utils;
 import java.io.IOException;
 import org.gradle.api.tasks.TaskAction;
 import org.gradle.api.tasks.options.Option;
+import tech.eita.exceptions.ParamNotFoundException;
+import tech.eita.utils.Utils;
 
 public class GenerateUseCaseTask extends CleanArchitectureDefaultTask {
   private static final String USECASE_CLASS_NAME = "UseCase";

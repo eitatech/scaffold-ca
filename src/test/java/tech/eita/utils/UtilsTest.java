@@ -3,13 +3,13 @@ package tech.eita.utils;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-import tech.eita.Constants;
-import tech.eita.exceptions.CleanException;
-import tech.eita.exceptions.ParamNotFoundException;
 import java.io.IOException;
 import java.util.*;
 import org.junit.Assert;
 import org.junit.Test;
+import tech.eita.Constants;
+import tech.eita.exceptions.CleanException;
+import tech.eita.exceptions.ParamNotFoundException;
 
 public class UtilsTest {
 

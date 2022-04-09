@@ -1,12 +1,12 @@
 package tech.eita.task;
 
-import tech.eita.exceptions.CleanException;
 import java.io.File;
 import java.io.IOException;
 import org.gradle.api.Project;
 import org.gradle.testfixtures.ProjectBuilder;
 import org.junit.Before;
 import org.junit.Test;
+import tech.eita.exceptions.CleanException;
 
 public class UpdateProjectTaskTest {
   private UpdateProjectTask task;
@@ -34,18 +34,18 @@ public class UpdateProjectTaskTest {
     task = (UpdateProjectTask) project.getTasks().getByName("test");
   }
 
-//  @Test
-//  public void shouldUpdateProject() throws IOException {
-//    task.updateProject();
-//  }
-//
-//  @Test
-//  public void shouldUpdateProjectAndSomeDependencies() throws IOException {
-//    // Arrange
-//    task.setDependencies("org.mockito:mockito-core org.projectlombok:lombok");
-//    // Act
-//    task.updateProject();
-//  }
+  //  @Test
+  //  public void shouldUpdateProject() throws IOException {
+  //    task.updateProject();
+  //  }
+  //
+  //  @Test
+  //  public void shouldUpdateProjectAndSomeDependencies() throws IOException {
+  //    // Arrange
+  //    task.setDependencies("org.mockito:mockito-core org.projectlombok:lombok");
+  //    // Act
+  //    task.updateProject();
+  //  }
 
   @Test
   public void shouldNotUpdateProjectAndSomeDependencies() throws IOException {

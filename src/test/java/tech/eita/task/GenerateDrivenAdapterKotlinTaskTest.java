@@ -3,10 +3,6 @@ package tech.eita.task;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import tech.eita.Constants;
-import tech.eita.exceptions.CleanException;
-import tech.eita.factory.adapters.DrivenAdapterRedis;
-import tech.eita.factory.adapters.ModuleFactoryDrivenAdapter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -16,6 +12,10 @@ import org.gradle.api.Project;
 import org.gradle.testfixtures.ProjectBuilder;
 import org.junit.Before;
 import org.junit.Test;
+import tech.eita.Constants;
+import tech.eita.exceptions.CleanException;
+import tech.eita.factory.adapters.DrivenAdapterRedis;
+import tech.eita.factory.adapters.ModuleFactoryDrivenAdapter;
 
 public class GenerateDrivenAdapterKotlinTaskTest {
   private GenerateDrivenAdapterTask task;
