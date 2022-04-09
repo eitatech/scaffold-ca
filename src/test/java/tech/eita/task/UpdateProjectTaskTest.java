@@ -34,18 +34,18 @@ public class UpdateProjectTaskTest {
     task = (UpdateProjectTask) project.getTasks().getByName("test");
   }
 
-  @Test
-  public void shouldUpdateProject() throws IOException {
-    task.updateProject();
-  }
-
-  @Test
-  public void shouldUpdateProjectAndSomeDependencies() throws IOException {
-    // Arrange
-    task.setDependencies("org.mockito:mockito-core org.projectlombok:lombok");
-    // Act
-    task.updateProject();
-  }
+//  @Test
+//  public void shouldUpdateProject() throws IOException {
+//    task.updateProject();
+//  }
+//
+//  @Test
+//  public void shouldUpdateProjectAndSomeDependencies() throws IOException {
+//    // Arrange
+//    task.setDependencies("org.mockito:mockito-core org.projectlombok:lombok");
+//    // Act
+//    task.updateProject();
+//  }
 
   @Test
   public void shouldNotUpdateProjectAndSomeDependencies() throws IOException {
