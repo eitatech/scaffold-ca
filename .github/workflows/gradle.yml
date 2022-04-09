@@ -67,8 +67,8 @@ jobs:
         uses: github-actions-x/commit@v2.8
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: "master"
-          commit-message: 'upgrade version to ${{ env.RELEASE_VERSION }} versión'
+          push-branch: "main"
+          commit-message: 'upgrade version to ${{ env.RELEASE_VERSION }} version'
           force-add: "true"
           files: README.md gradle.properties src/main/java/tech/eita/Constants.java
           name: Release Bot
