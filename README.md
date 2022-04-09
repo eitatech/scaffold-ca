@@ -1,9 +1,9 @@
 ![](https://github.com/eitatech/scaffold-ca/workflows/gradle-actions/badge.svg)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eitatech_scaffold-ca&metric=alert_status)](https://sonarcloud.io/dashboard?id=eitatech_scaffold-ca)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=eitatech_scaffold-ca&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=eitatech_scaffold-ca)
-[![codecov](https://codecov.io/gh/eita/scaffold-ca/branch/master/graph/badge.svg)](https://codecov.io/gh/eitatech/scaffold-ca)
-[![GitHub license](https://shields.io/badge/license-Apache%202-blue)](https://github.com/eita/scaffold-ca/blob/master/LICENSE)
-[![Scorecards supply-chain security](https://github.com/eitatech/scaffold-ca/actions/workflows/scorecards-analysis.yml/badge.svg)](https://github.com/eita/scaffold-ca/actions/workflows/scorecards-analysis.yml)
+[![codecov](https://codecov.io/gh/eitatech/scaffold-ca/branch/main/graph/badge.svg)](https://codecov.io/gh/eitatech/scaffold-ca)
+[![GitHub license](https://shields.io/badge/license-Apache%202-blue)](https://github.com/eitatech/scaffold-ca/blob/main/LICENSE)
+[![Scorecards supply-chain security](https://github.com/eitatech/scaffold-ca/actions/workflows/scorecards-analysis.yml/badge.svg)](https://github.com/eitatech/scaffold-ca/actions/workflows/scorecards-analysis.yml)
 
 # Scaffolding of Clean Architecture
 
